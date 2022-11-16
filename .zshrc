@@ -7,30 +7,6 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="kudusch"
 
-#ZSH_THEME="bullet-train"
-BULLETTRAIN_PROMPT_ORDER=(
-    	time
-	git
-	#context
-	dir
-	status
-    	#custom
-        #perl
-    	#ruby
-	#python
-    	virtualenv
-    	#nvm
-    	#aws
-    	#go
-    	#elixir
-    	#hg
-    	cmd_exec_time
-)
-BULLETTRAIN_VIRTUALENV_PREFIX=""
-#BULLETTRAIN_VIRTUALENV_FG="white"
-#BULLETTRAIN_VIRTUALENV_BG="green"
-BULLETTRAIN_PROMPT_CHAR=">"
-
 plugins=(git encode64)
 #plugins=(git encode64 osx terminalapp colored-man)
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
