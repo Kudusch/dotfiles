@@ -17,8 +17,6 @@ function box_name {
   echo "${box:gs/%/%%}"
 }
 
-VIRTUAL_ENV_DISABLE_PROMPT=true
-
 PROMPT="╭─%{$FG[040]%}%n%{$reset_color%} at %{$FG[033]%}$(box_name)%{$reset_color%} in %{$terminfo[bold]$FG[040]%}%~%{$reset_color%}\$(git_prompt_info) %D - %*
 ╰─\$(virtualenv_info)\$(prompt_char) "
 
