@@ -34,5 +34,5 @@ cp .tmux.conf.local ..
 ```
 
 ```
-cp kudusch.zsh-theme ~/.oh-my-zsh/custom/theme
+cp kudusch.zsh-theme ~/.oh-my-zsh/custom/themes
 ```
